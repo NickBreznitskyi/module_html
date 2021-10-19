@@ -1,0 +1,60 @@
+.box_1 {
+    display: flex;
+}
+
+.box_2 {
+    flex-grow: 3;
+}
+
+.box_3 {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.box_4 {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.a {
+    background: #6caee5;
+    flex-grow: 1;
+    height: 100px;
+}
+
+.b {
+    background: #29e5e0;
+    flex-grow: 1;
+}
+
+.c {
+    background: #4de58b;
+    flex-grow: 1;
+}
+
+.d {
+    background: #e5c69e;
+    flex-grow: 1;
+}
+
+.e {
+    background: #6de54e;
+    flex-grow: 1;
+}
+
+.f {
+    background: #e5a621;
+    flex-grow: 1;
+}
+
+.g {
+    background: #e55c3c;
+    flex-grow: 1;
+}
+
+.h {
+    background: #ad6ae5;
+    flex-grow: 1;
+}

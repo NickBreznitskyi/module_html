@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    background: #18abbe;
+    height: 50px;
+}
+
+.box {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.box_1 {
+    flex-grow: 1;
+}
+
+.target {
+    background: #6de54e;
+    border: solid red;
+    text-align: center;
+}
+
+.a {
+    height: 200px;
+}
+
+.b {
+    height: 300px;
+}
+
+.c {
+    height: 400px;
+}
+
+.d {
+    height: 100px;
+}
+
+.e {
+    height: 100px;
+    flex-grow: 3;
+}
+
+.f {
+    height: 100px;
+    flex-grow: 1;
+}

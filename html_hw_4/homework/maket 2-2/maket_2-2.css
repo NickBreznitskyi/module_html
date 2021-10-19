@@ -1,0 +1,30 @@
+.father_box {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    background: #18abbe;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    background: blue;
+    width: 150px;
+
+
+}
+
+p {
+    color: white;
+}
