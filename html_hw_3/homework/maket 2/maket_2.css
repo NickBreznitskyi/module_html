@@ -1,0 +1,35 @@
+.box {
+    flex-grow: 1;
+    height: 200px;
+}
+
+.father {
+    display: flex;
+
+}
+
+p {
+    text-align: center;
+}
+
+.a {
+    background: #1a44e5;
+}
+
+.b {
+    background: #70ace5;
+}
+
+.c {
+    background: #7c7ae5;
+    flex-grow: 5;
+}
+
+.d {
+    background: #c992e5;
+    flex-grow: 1;
+}
+
+.e {
+    background: #6caee5;
+}

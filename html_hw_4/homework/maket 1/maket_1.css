@@ -1,29 +1,38 @@
-body {
-    background: red;
+.bg {
+    background: silver;
+}
+
+.mg5 {
+    margin: 5px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.flex {
+    display: flex;
 }
 
 .box {
-    display: flex;
-    height: 200px;
-
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
-.text {
-    text-align: center;
-}
-
-.a {
-    height: 300px;
-    background: #05e5a2;
-
-}
-
-.b {
-    background: #18abbe;
-    flex-grow: 2;
-}
-
-.c {
-    background: #39e548;
+.f-g1 {
     flex-grow: 1;
+}
+
+.f-g4 {
+    flex-grow: 4;
+}
+
+.container {
+    border: solid black 1px;
+    border-radius: 10px;
 }

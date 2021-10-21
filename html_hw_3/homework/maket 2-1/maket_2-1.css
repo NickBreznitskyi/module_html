@@ -1,0 +1,49 @@
+body {
+    background: red;
+}
+
+#header {
+    height: 100px;
+    background: #18abbe;
+    text-align: center;
+}
+
+.father_box {
+    display: flex;
+    height: 600px;
+}
+
+#menu {
+    background: silver;
+    align-items: stretch;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.box {
+    align-items: stretch;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    text-align: center;
+
+}
+
+.a {
+    background: blue;
+    flex-grow: 1;
+}
+
+.b {
+    background: blueviolet;
+    flex-grow: 1;
+}
+
+#footer {
+    height: 100px;
+    background: #18abbe;
+    text-align: center;
+}
