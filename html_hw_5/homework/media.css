@@ -1,0 +1,32 @@
+@media screen and (max-width: 420px) {
+    .soc-icon {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header__logo {
+        width: 100px;
+    }
+
+    .hamburger-btn {
+        display: flex;
+
+    }
+
+    .products__list, .about__grid, .content__main {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content__card {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    .card {
+        display: block;
+    }
+}
