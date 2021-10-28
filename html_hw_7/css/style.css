@@ -1,0 +1,134 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: url("../image/bg.png") no-repeat center/cover;
+    height: 1000px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header__contact {
+    color: #FFFFFF;
+}
+
+.header__phone {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+}
+
+.header__phone p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 0;
+    color: #FFFFFF;
+    height: 47px;
+    background-color: #FF7400;
+}
+
+.nav__btn_mobile {
+    width: 30px;
+}
+
+.nav__btn_mobile div {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}
+
+.header__title {
+    font-family: 'Tinos', serif;
+    font-weight: normal;
+    color: #D67E35;
+    margin-top: 203px;
+    max-width: 500px;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.header__title p::before, .header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.header__title p::before {
+    margin-right: 10px;
+}
+
+.header__title p::after {
+    margin-left: 10px;
+}
+
+.description {
+    background-color: #E5E5E5;
+}
+
+.card {
+    width: 350px;
+    height: 330px;
+    background-color: #FFFFFF;
+    bottom: 150px;
+    border-radius: 0;
+}
+
+.card img {
+    width: 126px;
+    height: 104px;
+}
+
+.card-title {
+    font-family: 'Tinos', serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.card-title > span {
+    color: #BC9060;
+}
+
+.card-text {
+    font-family: 'Tinos', serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #656363;
+}
